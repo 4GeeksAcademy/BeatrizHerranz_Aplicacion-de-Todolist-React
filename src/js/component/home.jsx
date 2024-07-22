@@ -31,10 +31,10 @@ const Home = () => {
 						placeholder="What do you need to do?"></input>
 				</li>
 				{todos.length === 0 ? (
-					<li>No hay tareas, añadir tareas.</li>
+					<li className="no-tasks">No hay tareas, añadir tareas.</li>
 				) : (
 					todos.map((todo, index) => (
-						<li key={index}>
+						<li key={index} className="task-list-item">
 							{todo}{" "}
 							<i
 								className="fa-solid fa-trash-can"

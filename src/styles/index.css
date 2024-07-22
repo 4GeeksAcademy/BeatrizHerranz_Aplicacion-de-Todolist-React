@@ -54,3 +54,12 @@ input {
     cursor: pointer;
     color: #888;
 }
+
+.task-list {
+    font-size: 12px; /* Ajusta el tamaño del texto */
+  }
+  
+  .no-tasks {
+    padding: 5px; /* Ajusta el tamaño del cuadrado */
+    font-size: 10px; /* Ajusta el tamaño del texto dentro del cuadrado */
+  }
