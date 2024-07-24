@@ -57,9 +57,11 @@ input {
 
 .task-list {
     font-size: 12px; /* Ajusta el tamaño del texto */
+    color: #888;
   }
   
   .no-tasks {
     padding: 5px; /* Ajusta el tamaño del cuadrado */
     font-size: 10px; /* Ajusta el tamaño del texto dentro del cuadrado */
+    color: #888;
   }
